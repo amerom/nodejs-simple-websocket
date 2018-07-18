@@ -1,0 +1,17 @@
+{
+  "name": "crm-wss",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/server.js"
+  },
+  "dependencies": {
+    "bson": "^3.0.2",
+    "debug": "~2.6.9",
+    "dotenv": "^6.0.0",
+    "express": "~4.16.0",
+    "express-ws": "^4.0.0",
+    "http-errors": "~1.6.2",
+    "mysql": "^2.15.0"
+  }
+}
