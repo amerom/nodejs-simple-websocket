@@ -73,4 +73,4 @@ router.ws('/lead', (ws, req) => {
     });
 });
 
-app.listen(3000);
+app.listen(process.env.WS_PORT);
