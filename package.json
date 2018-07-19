@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/server.js"
+    "start": "node ./bin/server.js",
+    "server": "nodemon ./bin/server.js"
   },
   "dependencies": {
     "bson": "^3.0.2",
@@ -14,5 +15,8 @@
     "http-errors": "~1.6.2",
     "lodash": "^4.17.10",
     "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   }
 }
