@@ -12,6 +12,7 @@
     "express": "~4.16.0",
     "express-ws": "^4.0.0",
     "http-errors": "~1.6.2",
+    "lodash": "^4.17.10",
     "mysql": "^2.15.0"
   }
 }
